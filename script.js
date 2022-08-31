@@ -42,10 +42,10 @@ window.onload = function() {
     };
   
     capture = createCapture(constraints,function(){
-        capturing = true
+        capturing = true
       console.log('capturing')
     })
-    // capture.elt.setAttribute('playsinline', '');
+    // capture.elt.setAttribute('playsinline', '');
   
   
     capture.size(canvasWidth , canvasHeight )
@@ -61,7 +61,7 @@ window.onload = function() {
     // image(capture,0,0)
   
     if (params.textStyle === 'NORMAL') textStyle(NORMAL)
-    else if (params.textStyle === 'ITALIC') textStyle(ITALIC)
+    else if (params.textStyle === 'ITALIC') textStyle(ITALIC)
     else textStyle(BOLD)
   
     const characters = params.characters.split('')
